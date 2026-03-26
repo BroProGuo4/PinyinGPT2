@@ -161,15 +161,17 @@ To trigger a manual redeploy without a code change (e.g. after changing an envir
 
 ## Testing on Render
 
+Render project, make sure service is live and latest commit is deployed: https://dashboard.render.com/web/srv-d72ait2a214c73fobsl0/deploys/dep-d72aq0buibrs73b8ked0?r=2026-03-26%4003%3A49%3A25%7E2026-03-26%4003%3A53%3A20
+
 ### Health check
 Open in browser (also wakes up the server if it's cold):
 ```
-https://your-service-name.onrender.com/
+https://pinyingpt2.onrender.com/
 ```
 
 ### Swagger UI
 ```
-https://your-service-name.onrender.com/docs
+https://pinyingpt2.onrender.com/docs
 ```
 
 ### curl
